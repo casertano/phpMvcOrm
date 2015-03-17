@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<database>
+	<protocol>mysql</protocol>
+	<host>localhost</host>
+	<port>3306</port>
+	<schema>MVC</schema>
+	<userName>root</userName>
+	<passwd>my8box</passwd>
+</database> 
