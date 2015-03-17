@@ -1,0 +1,34 @@
+<?php 
+class EntityForeignKeyData {
+	
+	/**
+	 * Nome do campo que será uma chave estrangeira.
+	 * @var string
+	 */
+	public $name = "";
+	
+	/**
+	 * Tabela de referência para a chave estrangeira.
+	 * @var string
+	 */
+	public $references = "";
+	
+	/**
+	 * Chave para referênca na tabela de referência.
+	 * @var string
+	 */
+	public $key = "";
+	
+	/**
+	 * Ação quando executar um update.
+	 * @var string
+	 */
+	public $onUpdate = "restrict";
+	
+	/**
+	 * Ação quando executar uma exclusão.
+	 * @var string
+	 */
+	public $onDelete = "restrict";
+}
+?>
